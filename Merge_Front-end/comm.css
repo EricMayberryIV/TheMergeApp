@@ -1,0 +1,129 @@
+/* body{
+
+ background-image: url("eternal.jpg");
+ background-repeat: no-repeat;
+
+background-attachment : fixed;
+background-position   : 50% 50%;     
+background-size       : cover; 
+} */
+/* body {
+
+ background-image: url("famusign.jpg");
+ background-repeat: no-repeat;
+
+background-attachment : fixed;
+background-position   : 50% 50%;     
+background-size       : cover; 
+} */
+body {
+
+ background-image: url("green.png");
+ background-repeat: no-repeat;
+
+background-attachment : fixed;
+background-position   : 50% 50%;     
+background-size       : cover; 
+}
+h1{color:white;}
+
+
+#li {
+  font-family: 'Oswald', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+#content {
+    background-color:#ffffff;
+    width:1024px; 
+    margin: 0 auto; 
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    padding: 0;
+    display: inline-block;
+
+    position:relative;
+}
+
+
+
+
+.big-title h2 {
+  font-size: 4em;
+}
+#right {
+    float:right;
+    width:175px;
+	font-family: 'Oswald', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.boxed {
+  /* background-color:#FF6600 ; */
+  background-image: url("orange.jpg");
+ background-repeat: no-repeat;
+
+background-attachment : fixed;
+background-position   : 50% 50%;
+   
+    height:600px;
+    width:1165px;
+}
+
+/* #footer {
+    position: fixed;
+    padding-top: 60px;
+    color: #9d9d9d;
+    bottom: 0;
+    width: 100%;
+} */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color:#FF6600;
+  color: white;
+}
+
+.btn-primary{
+	background-color:#FF6600;
+	border: 3px solid #088A08;
+}
+
+.btn-primary:hover{
+	background-color: #088A08;
+	border: 3px solid #088A08;
+}
+
+.btn-primary:focus{
+	background-color: #088A08;
+	border: 3px solid #088A08;
+}
+
+.modal{
+ background-image: url("green.png");
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+background-position   : 50% 50%;     
+background-size       : cover; 
+}
+
+.modal-content{
+ background-color: #FF6600 ;
+/* background-image: url("images/tsa.png");*/
+}

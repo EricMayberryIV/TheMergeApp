@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Merge</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/background.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<div class="navbar-wrapper">
+				<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+					<div class="container-fluid banner">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-Menu-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button><img src="images/Merge.png" height="50" width="50"/> 
+								</div> 
+							<div class="hidden-xs"><a class="navbar-brand" href="#"> <h1 class="brand-heading" >{Merge} </h1></a></div>
+					   
+						<div class="collapse navbar-collapse navbar-right" id="bs-Menu-navbar-collapse-1">
+							
+							<ul class="nav navbar-nav">
+								<li id="li"><a href="home.html">Home</a><li>
+								<li id="li"><a href="settings.html">Settings</a>  </li>
+								
+								<li id="li"><a href="contact.html">Contact Us</a></li>
+								
+							</ul>
+							
+						</div><!-- <img src="images/lt.jpg" class="img-circle img-responsive" height="100" width="100" /> -->
+					</div>
+					
+				 </nav>
+				 
+			</div>
+
+   <body>
+
+<center>
+    <section id="about" class="container text-center">
+    
+        <div class="row">
+
+        <div class="col-sm-12">
+
+          <a class="btn btn-block btn-social btn-facebook" data-toggle="modal" data-target="#myFacebook">
+    <span class="fa fa-facebook"></span> Sign in with FaceBook
+  </a> 
+  <a class="btn btn-block btn-social btn-google"data-toggle="modal" data-target="#myGoogle">
+    <span class="fa fa-google"></span> Sign in with Google
+  </a>
+  <a class="btn btn-block btn-social btn-instagram" data-toggle="modal" data-target="#myInstagram">
+    <span class="fa fa-instagram"></span> Sign in with Instagram
+  </a>
+  <a class="btn btn-block btn-social btn-linkedin" data-toggle="modal" data-target="#myLinkedin">
+    <span class="fa fa-linkedin"></span> Sign in with LinkedIn
+  </a>
+  <a class="btn btn-block btn-social btn-pinterest" data-toggle="modal" data-target="#myPinterest">
+    <span class="fa fa-pinterest"></span> Sign in with Pinterest
+  </a>
+  <a class="btn btn-block btn-social btn-soundcloud" data-toggle="modal" data-target="#mySoundcloud">
+    <span class="fa fa-soundcloud"></span> Sign in with SoundCloud
+  </a>
+  <!-- <a class="btn btn-block btn-social btn-spotify" data-toggle="modal" data-target="#mySpotify">
+    <span class="fa fa-spotify"></span> Sign in with Spotify
+  </a> -->
+   <!-- <a class="btn btn-block btn-social btn-tinder" data-toggle="modal" data-target="#myTinder">
+    <span class="fa fa-tinder"></span> Sign in with Tinder
+  </a> -->
+   </a>
+   <a class="btn btn-block btn-social btn-tumblr" data-toggle="modal" data-target="#myTumblr">
+    <span class="fa fa-tumblr"></span> Sign in with Tumblr
+  </a>
+  <a class="btn btn-block btn-social btn-twitter" data-toggle="modal" data-target="#myTwitter">
+    <span class="fa fa-twitter"></span> Sign in with Twitter
+  </a>
+ <!-- <a class="btn btn-block btn-social btn-vine" data-toggle="modal" data-target="#myVine">
+    <span class="fa fa-vine"></span> Sign in with Vine
+  </a> --><br/>
+<a href="feed.html" class="btn btn-default btn-lg">Done!</a>
+
+        </div>
+ </section>
+
+
+
+        <!-- pop ups for FaceBook-->
+
+        <!-- Modal -->
+ <div class="modal fade" id="myFacebook" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">FaceBook</h4>
+        </div>
+        <div class="modal-body">
+           <!-- Body                    SIGN IN FOR _______________                             *****************************-->
+
+
+ 
+        <div class="download-section" align="center">
+                <div class="col-lg-3"> 
+                 <div class="container"><div class="col-lg-8"> <img src="images/fb.png" width="175px" height="200px"></div>
+                
+        <form class="form-signin">
+            
+                <p>
+                    <label class="sr-only">Email Address</label>
+                    <input type="email" placeholder="Email Address" id="username" class="form-control" required autofocus/>
+                </p>
+                
+                <p>
+                    <label class="sr-only">Password</label>
+                    <input type="Password" placeholder="Password" id="password" class="form-control"/>
+                </p>
+                
+                
+                
+        </form> 
+    
+                
+                    <!-- <h2>Sign In</h2> -->
+                   
+               
+                    <a href=" " class="btn btn-default btn-lg">Sign-In</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!-- ***************************************************END************************************************* -->
+
+
+
+
+
+        <!-- pop ups for Google-->
+
+        <!-- Modal -->
+ <div class="modal fade" id="myGoogle" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">FaceBook</h4>
+        </div>
+        <div class="modal-body">
+           <!-- Body                    SIGN IN FOR _______________                             *****************************-->
+
+
+ 
+        <div class="download-section" align="center">
+                <div class="col-lg-3"> 
+                 <div class="container"><div class="col-lg-8"> <img src="images/G.png" width="175px" height="200px"></div>
+                
+        <form class="form-signin">
+            
+                <p>
+                    <label class="sr-only">Email Address</label>
+                    <input type="email" placeholder="Email Address" id="username" class="form-control" required autofocus/>
+                </p>
+                
+                <p>
+                    <label class="sr-only">Password</label>
+                    <input type="Password" placeholder="Password" id="password" class="form-control"/>
+                </p>
+                
+                
+                
+        </form> 
+    
+                
+                    <!-- <h2>Sign In</h2> -->
+                   
+               
+                    <a href=" " class="btn btn-default btn-lg">Sign-In</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!-- ***************************************************END************************************************* -->
+
+
+
+
+        <!-- pop ups for Instagram-->
+
+        <!-- Modal -->
+ <div class="modal fade" id="myInstagram" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">FaceBook</h4>
+        </div>
+        <div class="modal-body">
+           <!-- Body                    SIGN IN FOR _______________                             *****************************-->
+
+
+ 
+        <div class="download-section" align="center">
+                <div class="col-lg-3"> 
+                 <div class="container"><div class="col-lg-8"> <img src="images/insta.png" width="175px" height="200px"></div>
+                
+        <form class="form-signin">
+            
+                <p>
+                    <label class="sr-only">Email Address</label>
+                    <input type="email" placeholder="Email Address" id="username" class="form-control" required autofocus/>
+                </p>
+                
+                <p>
+                    <label class="sr-only">Password</label>
+                    <input type="Password" placeholder="Password" id="password" class="form-control"/>
+                </p>
+                
+                
+                
+        </form> 
+    
+                
+                    <!-- <h2>Sign In</h2> -->
+                   
+               
+                    <a href="feed.html" class="btn btn-default btn-lg">Sign-In</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!-- ***************************************************END************************************************* -->
+
+
+
+
+
+        <!-- pop ups for LinkedIn-->
+
+        <!-- Modal -->
+ <div class="modal fade" id="myLinkedin" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">FaceBook</h4>
+        </div>
+        <div class="modal-body">
+           <!-- Body                    SIGN IN FOR _______________                             *****************************-->
+
+
+ 
+        <div class="download-section" align="center">
+                <div class="col-lg-3"> 
+                 <div class="container"><div class="col-lg-8"> <img src="images/linkedin.png" width="175px" height="200px"></div>
+                
+        <form class="form-signin">
+            
+                <p>
+                    <label class="sr-only">Email Address</label>
+                    <input type="email" placeholder="Email Address" id="username" class="form-control" required autofocus/>
+                </p>
+                
+                <p>
+                    <label class="sr-only">Password</label>
+                    <input type="Password" placeholder="Password" id="password" class="form-control"/>
+                </p>
+                
+                
+                
+        </form> 
+    
+                
+                    <!-- <h2>Sign In</h2> -->
+                   
+               
+                    <a href=" " class="btn btn-default btn-lg">Sign-In</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!-- ***************************************************END************************************************* -->
+
+
+
+
+
+        <!-- pop ups for Pinterest-->
+
+        <!-- Modal -->
+ <div class="modal fade" id="myPinterest" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">FaceBook</h4>
+        </div>
+        <div class="modal-body">
+           <!-- Body                    SIGN IN FOR _______________                             *****************************-->
+
+
+ 
+        <div class="download-section" align="center">
+                <div class="col-lg-3"> 
+                 <div class="container"><div class="col-lg-8"> <img src="images/Pinterest-icon.png" width="175px" height="200px"></div>
+                
+        <form class="form-signin">
+            
+                <p>
+                    <label class="sr-only">Email Address</label>
+                    <input type="email" placeholder="Email Address" id="username" class="form-control" required autofocus/>
+                </p>
+                
+                <p>
+                    <label class="sr-only">Password</label>
+                    <input type="Password" placeholder="Password" id="password" class="form-control"/>
+                </p>
+                
+                
+                
+        </form> 
+    
+                
+                    <!-- <h2>Sign In</h2> -->
+                   
+               
+                    <a href=" " class="btn btn-default btn-lg">Sign-In</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!-- ***************************************************END************************************************* -->
+
+
+
+
+        <!-- pop ups for SoundCloud-->
+
+        <!-- Modal -->
+ <div class="modal fade" id="mySoundcloud" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">FaceBook</h4>
+        </div>
+        <div class="modal-body">
+           <!-- Body                    SIGN IN FOR _______________                             *****************************-->
+
+
+ 
+        <div class="download-section" align="center">
+                <div class="col-lg-3"> 
+                 <div class="container"><div class="col-lg-8"> <img src="images/sound.png" width="175px" height="200px"></div>
+                
+        <form class="form-signin">
+            
+                <p>
+                    <label class="sr-only">Email Address</label>
+                    <input type="email" placeholder="Email Address" id="username" class="form-control" required autofocus/>
+                </p>
+                
+                <p>
+                    <label class="sr-only">Password</label>
+                    <input type="Password" placeholder="Password" id="password" class="form-control"/>
+                </p>
+                
+                
+                
+        </form> 
+    
+                
+                    <!-- <h2>Sign In</h2> -->
+                   
+               
+                    <a href=" " class="btn btn-default btn-lg">Sign-In</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!-- ***************************************************END************************************************* -->
+
+
+
+
+        <!-- pop ups for Spotify-->
+
+        <!-- Modal -->
+ <div class="modal fade" id="mySpotify" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">FaceBook</h4>
+        </div>
+        <div class="modal-body">
+           <!-- Body                    SIGN IN FOR _______________                             *****************************-->
+
+
+ 
+        <div class="download-section" align="center">
+                <div class="col-lg-3"> 
+                 <div class="container"><div class="col-lg-8"> <img src="images/spoti.png" width="175px" height="200px"></div>
+                
+        <form class="form-signin">
+            
+                <p>
+                    <label class="sr-only">Email Address</label>
+                    <input type="email" placeholder="Email Address" id="username" class="form-control" required autofocus/>
+                </p>
+                
+                <p>
+                    <label class="sr-only">Password</label>
+                    <input type="Password" placeholder="Password" id="password" class="form-control"/>
+                </p>
+                
+                
+                
+        </form> 
+    
+                
+                    <!-- <h2>Sign In</h2> -->
+                   
+               
+                    <a href=" " class="btn btn-default btn-lg">Sign-In</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!-- ***************************************************END************************************************* -->
+
+
+
+
+        <!-- pop ups for Tinder-->
+
+        <!-- Modal -->
+ <div class="modal fade" id="myTinder" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">FaceBook</h4>
+        </div>
+        <div class="modal-body">
+           <!-- Body                    SIGN IN FOR _______________                             *****************************-->
+
+
+ 
+        <div class="download-section" align="center">
+                <div class="col-lg-3"> 
+                 <div class="container"><div class="col-lg-8"> <img src="images/tinderr.png" width="175px" height="200px"></div>
+                
+        <form class="form-signin">
+            
+                <p>
+                    <label class="sr-only">Email Address</label>
+                    <input type="email" placeholder="Email Address" id="username" class="form-control" required autofocus/>
+                </p>
+                
+                <p>
+                    <label class="sr-only">Password</label>
+                    <input type="Password" placeholder="Password" id="password" class="form-control"/>
+                </p>
+                
+                
+                
+        </form> 
+    
+                
+                    <!-- <h2>Sign In</h2> -->
+                   
+               
+                    <a href=" " class="btn btn-default btn-lg">Sign-In</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!-- ***************************************************END************************************************* -->
+
+
+
+
+        <!-- pop ups for Tumblr-->
+
+        <!-- Modal -->
+ <div class="modal fade" id="myTumblr" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">FaceBook</h4>
+        </div>
+        <div class="modal-body">
+           <!-- Body                    SIGN IN FOR _______________                             *****************************-->
+
+
+ 
+        <div class="download-section" align="center">
+                <div class="col-lg-3"> 
+                 <div class="container"><div class="col-lg-8"> <img src="images/tumblr.png" width="175px" height="200px"></div>
+                
+        <form class="form-signin">
+            
+                <p>
+                    <label class="sr-only">Email Address</label>
+                    <input type="email" placeholder="Email Address" id="username" class="form-control" required autofocus/>
+                </p>
+                
+                <p>
+                    <label class="sr-only">Password</label>
+                    <input type="Password" placeholder="Password" id="password" class="form-control"/>
+                </p>
+                
+                
+                
+        </form> 
+    
+                
+                    <!-- <h2>Sign In</h2> -->
+                   
+               
+                    <a href=" " class="btn btn-default btn-lg">Sign-In</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!-- ***************************************************END************************************************* -->
+
+
+
+
+        <!-- pop ups for Twitter-->
+
+        <!-- Modal -->
+ <div class="modal fade" id="myTwitter" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">FaceBook</h4>
+        </div>
+        <div class="modal-body">
+           <!-- Body                    SIGN IN FOR _______________                             *****************************-->
+
+
+ 
+        <div class="download-section" align="center">
+                <div class="col-lg-3"> 
+                 <div class="container"><div class="col-lg-8"> <img src="images/Tw.png" width="175px" height="200px"></div>
+                
+        <form class="form-signin">
+            
+                <p>
+                    <label class="sr-only">Email Address</label>
+                    <input type="email" placeholder="Email Address" id="username" class="form-control" required autofocus/>
+                </p>
+                
+                <p>
+                    <label class="sr-only">Password</label>
+                    <input type="Password" placeholder="Password" id="password" class="form-control"/>
+                </p>
+                
+                
+                
+        </form> 
+    
+                
+                    <!-- <h2>Sign In</h2> -->
+                   
+               
+                    <a href=" " class="btn btn-default btn-lg">Sign-In</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!-- ***************************************************END************************************************* -->
+
+
+
+
+        <!-- pop ups for Vine-->
+
+        <!-- Modal -->
+ <div class="modal fade" id="myVine" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">FaceBook</h4>
+        </div>
+        <div class="modal-body">
+           <!-- Body                    SIGN IN FOR _______________                             *****************************-->
+
+
+ 
+        <div class="download-section" align="center">
+                <div class="col-lg-3"> 
+                 <div class="container"><div class="col-lg-8"> <img src="images/vine.png" width="175px" height="200px"></div>
+                
+        <form class="form-signin">
+            
+                <p>
+                    <label class="sr-only">Email Address</label>
+                    <input type="email" placeholder="Email Address" id="username" class="form-control" required autofocus/>
+                </p>
+                
+                <p>
+                    <label class="sr-only">Password</label>
+                    <input type="Password" placeholder="Password" id="password" class="form-control"/>
+                </p>
+                
+                
+                
+        </form> 
+    
+                
+                    <!-- <h2>Sign In</h2> -->
+                   
+               
+                    <a href=" " class="btn btn-default btn-lg">Sign-In</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!-- ***************************************************END************************************************* -->
+
+
+   
+</body>
+
+</html>
